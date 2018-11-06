@@ -66,6 +66,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +80,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-duncan-solutions-inc-parking-meter-computer-icons-paid-parking-5b122179df0e60.6718719515279148739137.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\propia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carretera1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\propia1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\propia2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\propia3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
